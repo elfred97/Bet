@@ -1,0 +1,891 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="./favicon.ico?v=2"/>
+    <link rel="shortcut icon" href="./favicon.ico?v=2"/>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico?v=2"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico?v=2"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico?v=2"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="theme-color" content="#3498DB"/>
+    <meta name="description" content="InfaXia Strategy Guide - Welcome to the innovative GameFi experience in the next-gen Web3 economic city where you can play, earn, and connect"/>
+    <link rel="apple-touch-icon" href="./logo192.png"/>
+    <link rel="manifest" href="./manifest.json"/>
+    <title>InfaXia Strategy Guide - Web3 Economic City GameFi Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/global.css">
+</head>
+<body>
+    <div class="App">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-container">
+                <div class="logo-section">
+                    <div class="logo-container">
+                        <img src="logo_and_infaxia.png" alt="InfaXia" class="logo" />
+                        <span class="beta-label">Beta</span>
+                    </div>
+                    <div class="logo-subtitle">Web3 Economic City</div>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#dao" class="nav-link">DAO</a>
+                    <a href="#roadmap" class="nav-link">Roadmap</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="https://go.infaxia.io/" target="_blank" rel="noopener noreferrer" class="launch-app-btn">Launch App</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-background">
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="hero-content">
+                    <div class="hero-badge">🚀 Web3 Gaming Platform</div>
+                    <h1 class="hero-title">
+                        <div class="hero-logo-container">
+                            <img src="logo_and_infaxia.png" alt="InfaXia" class="hero-title-main hero-logo" />
+                            <span class="hero-beta-label">Beta</span>
+                        </div>
+                        <span class="hero-title-sub">Strategy Guide</span>
+                    </h1>
+                    <p class="hero-description">
+                        Welcome to the next-gen Web3 economic city for innovative GameFi experiences: play, earn, and connect!
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Active Players</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">NFT Collections</div>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="https://go.infaxia.io/" target="_blank" rel="noopener noreferrer" class="hero-btn primary">🎮 Play Now</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Guide Section -->
+            <section class="guide-section" id="guide">
+                <div class="hero-bg">
+                    <h1 class="lp-title">InfaXia Strategy Guide</h1>
+                </div>
+                <div class="tile-grid" style="padding: 50px 20px 100px 20px;">
+                    <div class="lp-tile" onclick="openModal(0)">
+                        <div class="lp-tile-icon">🌐</div>
+                        <div class="lp-tile-title">What is InfaXia?</div>
+                        <div class="lp-tile-summary">Web3 Economic City Overview</div>
+                    </div>
+                    <div class="lp-tile" onclick="openModal(1)">
+                        <div class="lp-tile-icon">🎮</div>
+                        <div class="lp-tile-title">What You Can Do</div>
+                        <div class="lp-tile-summary">Available Activities</div>
+                    </div>
+                    <div class="lp-tile" onclick="openModal(2)">
+                        <div class="lp-tile-icon">🚀</div>
+                        <div class="lp-tile-title">How to Start</div>
+                        <div class="lp-tile-summary">4 Steps to Start</div>
+                    </div>
+                    <div class="lp-tile services-tile" onclick="openModal(3)">
+                        <div class="lp-tile-icon">🎨</div>
+                        <div class="lp-tile-title">Services & NFT</div>
+                        <div class="lp-tile-summary">Web3 Services & Digital Assets</div>
+                        <div class="coming-soon-indicator">Coming Soon...</div>
+                    </div>
+                    <div class="lp-tile earn-tile" onclick="openModal(4)">
+                        <div class="lp-tile-icon">💰</div>
+                        <div class="lp-tile-title">How to Earn</div>
+                        <div class="lp-tile-summary">Multiple Revenue Streams</div>
+                        <div class="earning-indicator">Start Earning Today</div>
+                    </div>
+                    <div class="lp-tile" onclick="openModal(5)">
+                        <div class="lp-tile-icon">🏛️</div>
+                        <div class="lp-tile-title">Join DAO</div>
+                        <div class="lp-tile-summary">How to Join DAO</div>
+                    </div>
+                    <div class="lp-tile" onclick="openModal(6)">
+                        <div class="lp-tile-icon">📢</div>
+                        <div class="lp-tile-title">Get Updates</div>
+                        <div class="lp-tile-summary">Stay Updated</div>
+                    </div>
+                    <div class="lp-tile" onclick="openModal(7)">
+                        <div class="lp-tile-icon discord-guide-icon">
+                            <svg width="60" height="60" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978Z" fill="currentColor"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="lp-tile-title">Discord Guide</div>
+                        <div class="lp-tile-summary">Discord Usage</div>
+                    </div>
+                    <div class="lp-tile" onclick="openModal(8)">
+                        <div class="lp-tile-icon">🗺️</div>
+                        <div class="lp-tile-title">Roadmap</div>
+                        <div class="lp-tile-summary">Future Development</div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div id="modal-overlay" class="lp-modal-overlay" style="display: none;" onclick="closeModal()">
+                    <div class="lp-modal" onclick="event.stopPropagation()">
+                        <button class="lp-modal-close" onclick="closeModal()">&times;</button>
+                        <h2 id="modal-title"></h2>
+                        <div id="modal-content"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- About InfaXia Section -->
+            <section class="about-section" id="about">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">What is InfaXia?</h2>
+                        <p class="section-subtitle">The Complete Picture of Next-Gen Web3 Economic City</p>
+                    </div>
+                    
+                    <div class="about-grid">
+                        <div class="about-card metaverse">
+                            <div class="card-header">
+                                <div class="card-icon">🌐</div>
+                                <div class="card-title-section">
+                                    <h3 class="card-title">Metaverse</h3>
+                                    <p class="card-subtitle">Immersive Virtual World</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    The infinitely expanding 3D virtual city "InfaXia". A social metaverse space where you can interact with other players in real-time and freely enjoy events, games, and economic activities.
+                                </p>
+                                <div class="card-features-title">Key Features</div>
+                                <ul class="card-features">
+                                    <li>Free exploration in 3D virtual environment</li>
+                                    <li>Avatar customization</li>
+                                    <li>Real-time voice & chat</li>
+                                    <li>Virtual event hosting</li>
+                                </ul>
+                                <div class="card-stats">
+                                    <div class="card-stat">
+                                        <span class="card-stat-number">24/7</span>
+                                        <span class="card-stat-label">Uptime</span>
+                                    </div>
+                                    <div class="card-stat">
+                                        <span class="card-stat-number">∞</span>
+                                        <span class="card-stat-label">Exploration Areas</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-card gamefi">
+                            <div class="card-header">
+                                <div class="card-icon">🎮</div>
+                                <div class="card-title-section">
+                                    <h3 class="card-title">GameFi</h3>
+                                    <p class="card-subtitle">Play-to-Earn Gaming</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    Grab rewards in 2P battles! Next-gen "Play & Earn" real-time P2P battle platform with skill and strategy. In InfaXia, players compete against each other in games to win victory rewards and NFTs. Tournament formats and prize battles create a "battle economy" that goes beyond just gaming.
+                                </p>
+                                <div class="card-features-title">Games & Rewards</div>
+                                <ul class="card-features">
+                                    <li>RPS・Poker・Baccarat games</li>
+                                    <li>Skill-based reward system</li>
+                                    <li>NFT item acquisition</li>
+                                    <li>Battle format: Player vs Player (P2P)</li>
+                                </ul>
+                                <div class="card-stats">
+                                    <div class="card-stat">
+                                        <span class="card-stat-number">3+</span>
+                                        <span class="card-stat-label">Game Types</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-card store">
+                            <div class="card-header">
+                                <div class="card-icon">🏪</div>
+                                <div class="card-title-section">
+                                    <h3 class="card-title">Virtual Store</h3>
+                                    <p class="card-subtitle">Virtual Marketplace</p>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">
+                                    A multi-use market for the Web3 era. A next-gen store where all values from NFT items to real services can be traded. A new economic space where individuals, creators, and brands can freely open stores and achieve monetization and community building simultaneously.
+                                </p>
+                                <div class="card-features-title">Trading Platform</div>
+                                <ul class="card-features">
+                                    <li>NFT Marketplace (avatars, tickets, etc.) Coming soon</li>
+                                    <li>Brand official stores (selling own products & services)</li>
+                                    <li>Service trading platform</li>
+                                    <li>Cross-chain support (multiple token payments)</li>
+                                </ul>
+                                <div class="card-stats">
+                                    <div class="card-stat">
+                                        <span class="card-stat-number">24/7</span>
+                                        <span class="card-stat-label">Operating Hours</span>
+                                    </div>
+                                    <div class="card-stat">
+                                        <span class="card-stat-number">Global</span>
+                                        <span class="card-stat-label">Market Scale</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="participants-section">
+                        <h3 class="participants-title">Who Can Participate?</h3>
+                        <div class="participants-grid">
+                            <div class="participant-card">
+                                <div class="participant-icon">👥</div>
+                                <h4>Players</h4>
+                                <p>Earn rewards through strategy and skill, collect NFTs and IXP. An open economy accessible to anyone, where you can grow through PvP (Player vs Player) battles and co-creative experiences with other players.</p>
+                            </div>
+                            <div class="participant-card">
+                                <div class="participant-icon">🏢</div>
+                                <h4>Companies & Brands</h4>
+                                <p>Connect with users through store openings, advertising, and campaigns. Reach next-gen user demographics through Web3 marketing and experiential promotions.</p>
+                            </div>
+                            <div class="participant-card">
+                                <div class="participant-icon">🏛️</div>
+                                <h4>DAO Members</h4>
+                                <p>Companions who create the future of InfaXia together. Special members who can voice their opinions through voting on game rules, rewards, events, and more.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="economy-section">
+                        <h3 class="economy-title">Innovative Economic System</h3>
+                        <div class="economy-features">
+                            <div class="economy-item">
+                                <div class="economy-icon">💰</div>
+                                <div class="economy-content">
+                                    <h4>Earn</h4>
+                                    <p>Generate digital revenue convertible to real value through PvP games, NFT trading, mission completion, and more.</p>
+                                </div>
+                            </div>
+                            <div class="economy-item">
+                                <div class="economy-icon">🤝</div>
+                                <div class="economy-content">
+                                    <h4>Connect</h4>
+                                    <p>Interact with users worldwide, enjoy strategy sharing and co-creation. Provide deep community experiences through Discord and events.</p>
+                                </div>
+                            </div>
+                            <div class="economy-item">
+                                <div class="economy-icon">📈</div>
+                                <div class="economy-content">
+                                    <h4>Expand</h4>
+                                    <p>The next-gen Web3 market where NFT, service sales, and game revenue converge. Anyone can become a "participant" in economic activities.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo_and_infaxia.png" alt="InfaXia" class="logo" />
+                        <p class="footer-description">
+                            A new world to play, earn, and connect in a Web3 economic city.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">GameFi</a></li>
+                        <li><a href="https://go.infaxia.io/coming-soon" target="_blank" rel="noopener noreferrer" class="footer-link">NFT Marketplace</a></li>
+                        <li><a href="https://go.infaxia.io/coming-soon" target="_blank" rel="noopener noreferrer" class="footer-link">Virtual Store</a></li>
+                        <li><a href="https://go.infaxia.io/coming-soon" target="_blank" rel="noopener noreferrer" class="footer-link">DAO Governance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Community</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://discord.gg/infaxia" target="_blank" rel="noopener noreferrer" class="footer-link">Discord</a></li>
+                        <li><a href="https://x.com/infaxia_io" target="_blank" rel="noopener noreferrer" class="footer-link">Twitter/X</a></li>
+                        <li><a href="https://t.me/infaxia_io" target="_blank" rel="noopener noreferrer" class="footer-link">Telegram</a></li>
+                        <li><a href="https://facebook.com/infaxia.io" target="_blank" rel="noopener noreferrer" class="footer-link">Facebook</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://infaxia.zendesk.com/hc/en-us" target="_blank" rel="noopener noreferrer" class="footer-link">Help Center</a></li>
+                        <li><a href="https://go.infaxia.io/faqs-list" target="_blank" rel="noopener noreferrer" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-container">
+                    <p class="copyright">© 2025 InfaXia. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const tileData = [
+            {
+                title: 'What is InfaXia?',
+                detail: 'InfaXia is a next-generation Web3 platform that fuses Metaverse, GameFi, and store-based business models into one ecosystem. It goes beyond typical virtual worlds by allowing both individuals and real-world businesses to open virtual stores, run operations, participate in games, and build economic opportunities inside the metaverse.\n\nInfaXia provides a comprehensive suite of Web3 and metaverse services designed to deliver immersive experiences, community engagement, and digital asset utility. These include:\n\n• InfaXia METAVERSE\nA virtual world where users can socialize, participate in events, play games like Poker and Rock-Paper-Scissors (RPS), and customize their avatars. It\'s an interactive environment built for fun, creativity, and community—featuring regular tournaments and bounties where users can compete and earn rewards.\n\n• GLOW BANK WALLET\nA secure digital wallet for storing and managing your assets within the InfaXia ecosystem. It enables smooth transactions for games, marketplace purchases, event participation, and bounty rewards. The wallet also supports easy deposits and withdrawals, real-time balance tracking, and serves as your gateway to all financial activities across the InfaXia platform.\n\n• InfaXia MARKETPLACE\nA decentralized marketplace for buying, selling, and trading digital items such as NFTs, avatar accessories, and virtual goods. It\'s seamlessly integrated with the GLOW BANK WALLET for fast and secure transactions. Users can discover limited-edition items, participate in special drops, and showcase their collections within the InfaXia METAVERSE.\n\n• MCC BET\nExperience the excitement of live betting with a wide range of games and events. Bet on your favorites, enjoy fair and transparent gameplay, and dive into interactive slot machines, arcade games, and more — all designed to give you thrilling chances to win while having fun.'
+            },
+            {
+                title: 'What You Can Do',
+                detail: 'InfaXia provides a comprehensive suite of Web3 and metaverse services designed to deliver immersive experiences, community engagement, and digital asset utility. These include:\n\n• InfaXia METAVERSE\nA virtual world where users can socialize, participate in events, play games like Poker and Rock-Paper-Scissors (RPS), and customize their avatars. It\'s an interactive environment built for fun, creativity, and community—featuring regular tournaments and bounties where users can compete and earn rewards.\n\n• GLOW BANK WALLET\nA secure digital wallet for storing and managing your assets within the InfaXia ecosystem. It enables smooth transactions for games, marketplace purchases, event participation, and bounty rewards. The wallet also supports easy deposits and withdrawals, real-time balance tracking, and serves as your gateway to all financial activities across the InfaXia platform.\n\n• InfaXia MARKETPLACE\nA decentralized marketplace for buying, selling, and trading digital items such as NFTs, avatar accessories, and virtual goods. It\'s seamlessly integrated with the GLOW BANK WALLET for fast and secure transactions. Users can discover limited-edition items, participate in special drops, and showcase their collections within the InfaXia METAVERSE.\n\n• MCC BET\nExperience the excitement of live betting with a wide range of games and events. Bet on your favorites, enjoy fair and transparent gameplay, and dive into interactive slot machines, arcade games, and more — all designed to give you thrilling chances to win while having fun.'
+            },
+            {
+                title: 'How to Start',
+                detail: 'infographic'
+            },
+            {
+                title: 'Services & NFT',
+                detail: `<div class="services-content">
+                    <div class="coming-soon-header">
+                        <span class="construction">🚧</span>
+                        <h3>Coming Soon</h3>
+                        <span class="construction">🚧</span>
+                    </div>
+                    
+                    <p class="intro-text">Exciting features currently under development:</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="feature-icon">🎮</span>
+                            <div class="feature-info">
+                                <strong>GameFi Zone</strong>
+                                <span class="feature-desc">RPS・Poker・Baccarat (planned)</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <span class="feature-icon">🛒</span>
+                            <div class="feature-info">
+                                <strong>NFT Shop</strong>
+                                <span class="feature-desc">Avatars, skins, items</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <span class="feature-icon">🏪</span>
+                            <div class="feature-info">
+                                <strong>Virtual Stores</strong>
+                                <span class="feature-desc">MCC (Casino), travel agency, brand stores planned</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stay-updated">
+                        <span class="notification">🔔</span>
+                        Stay tuned for updates!
+                    </div>
+                </div>`
+            },
+            {
+                title: 'How to Earn',
+                detail: `<div class="earn-content">
+                    <div class="earn-header">
+                        <span class="money-icon">💰</span>
+                        <h3>Multiple Ways to Earn</h3>
+                        <span class="money-icon">💰</span>
+                    </div>
+                    
+                    <p class="intro-text">Build your wealth in the InfaXia ecosystem through various activities:</p>
+                    
+                    <div class="earning-methods">
+                        <div class="earning-method">
+                            <span class="method-icon">🏆</span>
+                            <div class="method-info">
+                                <strong>Tournament Victories</strong>
+                                <span class="method-desc">Win games and competitions → Earn IXP rewards</span>
+                            </div>
+                        </div>
+                        
+                        <div class="earning-method">
+                            <span class="method-icon">💬</span>
+                            <div class="method-info">
+                                <strong>AMA Participation</strong>
+                                <span class="method-desc">Join discussions → Earn IXP + DAO governance role</span>
+                            </div>
+                        </div>
+                        
+                        <div class="earning-method">
+                            <span class="method-icon">🔗</span>
+                            <div class="method-info">
+                                <strong>Referrals & Social Posts</strong>
+                                <span class="method-desc">Invite friends and create content → Bounty rewards</span>
+                            </div>
+                        </div>
+                        
+                        <div class="earning-method future">
+                            <span class="method-icon">🎨</span>
+                            <div class="method-info">
+                                <strong>NFT Trading (Future)</strong>
+                                <span class="method-desc">Buy, sell, and trade digital assets → Market profits</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="start-earning">
+                        <span class="chart-icon">📈</span>
+                        Start your earning journey today in the InfaXia ecosystem!
+                    </div>
+                </div>`
+            },
+            {
+                title: 'Join DAO',
+                detail: 'InfaXia DAO will be managed through the InfaXia Discord server, where the community can join discussions, vote, and help shape the project.\n\nCome join us on Discord!\n\n🔗 https://discord.gg/YtNpwzQCvw'
+            },
+            {
+                title: 'Get Updates',
+                detail: 'Stay informed about AMAs, Tournaments, Roles & Rewards, Community Chats, System Updates, and more in the InfaXia community.\n\nJoin us through the following official channels:\n・Discord: InfaXia  https://discord.gg/YtNpwzQCvw\n・X (Twitter): @InfaXia_GameFI  https://x.com/InfaXia_GameFI\n・Telegram: InfaXia Channel  https://t.me/infaxia\n・Facebook: InfaXia https://www.facebook.com/profile.php?id=61575145405313'
+            },
+            {
+                title: 'Discord Guide',
+                detail: '#rps-tournament: Tournament results & winner introductions, #updates: New features & patch notes, #introductions: User connections, Role system (DAO / AMA / Master, etc.)\n\nCome join us on Discord!\n\n🔗 https://discord.gg/YtNpwzQCvw'
+            },
+            {
+                title: 'Roadmap',
+                detail: 'Q3 2025 Beta launch / Glow Wallet integration / RPS & Poker rollout, Q4 2025 NFT market expansion / Global partnerships begin, Q1 2026 Official launch / Large-scale promotion rollout'
+            }
+        ];
+
+        function openModal(index) {
+            const modal = document.getElementById('modal-overlay');
+            const title = document.getElementById('modal-title');
+            const content = document.getElementById('modal-content');
+            
+            title.textContent = tileData[index].title;
+            
+            if (index === 0 || index === 1) {
+                // Special layout for "What is InfaXia?" and "What You Can Do"
+                const introText = index === 0 ? 
+                    'InfaXia is a next-generation Web3 platform that fuses Metaverse, GameFi, and store-based business models into one ecosystem. It goes beyond typical virtual worlds by allowing both individuals and real-world businesses to open virtual stores, run operations, participate in games, and build economic opportunities inside the metaverse.' :
+                    'Discover all the exciting opportunities and services available in the InfaXia ecosystem. From gaming and trading to social interactions and financial management, InfaXia offers a complete Web3 experience tailored for the next generation of digital citizens.';
+                
+                content.innerHTML = `
+                    <div class="infaxia-content">
+                        <div class="infaxia-intro">
+                            ${introText}
+                        </div>
+                        
+                        <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.9); margin: 20px 0;">
+                            InfaXia provides a comprehensive suite of Web3 and metaverse services designed to deliver immersive experiences, community engagement, and digital asset utility. These include:
+                        </p>
+                        
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <div class="service-title">🌐 InfaXia METAVERSE</div>
+                                <div class="service-description">
+                                    A virtual world where users can socialize, participate in events, play games like Poker and Rock-Paper-Scissors (RPS), and customize their avatars. It's an interactive environment built for fun, creativity, and community—featuring regular tournaments and bounties where users can compete and earn rewards.
+                                </div>
+                            </div>
+                            
+                            <div class="service-card">
+                                <div class="service-title">💳 GLOW BANK WALLET</div>
+                                <div class="service-description">
+                                    A secure digital wallet for storing and managing your assets within the InfaXia ecosystem. It enables smooth transactions for games, marketplace purchases, event participation, and bounty rewards. The wallet also supports easy deposits and withdrawals, real-time balance tracking, and serves as your gateway to all financial activities across the InfaXia platform.
+                                </div>
+                            </div>
+                            
+                            <div class="service-card">
+                                <div class="service-title">🛒 InfaXia MARKETPLACE</div>
+                                <div class="service-description">
+                                    A decentralized marketplace for buying, selling, and trading digital items such as NFTs, avatar accessories, and virtual goods. It's seamlessly integrated with the GLOW BANK WALLET for fast and secure transactions. Users can discover limited-edition items, participate in special drops, and showcase their collections within the InfaXia METAVERSE.
+                                </div>
+                            </div>
+                            
+                            <div class="service-card">
+                                <div class="service-title">🎰 MCC BET</div>
+                                <div class="service-description">
+                                    Experience the excitement of live betting with a wide range of games and events. Bet on your favorites, enjoy fair and transparent gameplay, and dive into interactive slot machines, arcade games, and more — all designed to give you thrilling chances to win while having fun.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (tileData[index].detail === 'infographic') {
+                content.innerHTML = `
+                    <div class="infographic-container">
+                        <div class="infographic-header">
+                            <h3 class="infographic-title">Start your InfaXia journey in 4 easy steps!</h3>
+                            <div class="infographic-subtitle">🚀 Start now - Account creation is free!</div>
+                            <div class="infographic-youtube">
+                                <a href="https://www.youtube.com/watch?v=4p1tYO4urSk" target="_blank" rel="noopener noreferrer" class="how-to-start-youtube-link">
+                                    📺 Watch Tutorial Video
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="steps-container">
+                            <div class="step-item">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <div class="step-icon">🌐</div>
+                                    <div class="step-title">Access Official Site</div>
+                                    <div class="step-details">
+                                        <div class="step-url">https://go.infaxia.io/</div>
+                                        <div class="step-points">
+                                            <span>• Bookmark recommended</span>
+                                            <span>• Gateway to the Web3 economic city</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step-arrow">→</div>
+                            </div>
+
+                            <div class="step-item">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <div class="step-icon">💳</div>
+                                    <div class="step-title">Connect Glow eWallet</div>
+                                    <div class="step-description">
+                                        The Glow Bank Wallet is your central hub for managing funds on the InfaXia platform. It enables you to handle deposits, withdrawals, transfers, exchanges, view transaction history, and reset your password, ensuring complete control over your account and financial activities.
+                                    </div>
+                                    <div class="step-details">
+                                        <div class="step-points glow-wallet-features">
+                                            <span>🔐 Secure authentication</span>
+                                            <span>⚡ Fast one-click connection</span>
+                                            <span>🛡️ Manage digital assets safely</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step-arrow">→</div>
+                            </div>
+
+                            <div class="step-item">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <div class="step-icon">👤</div>
+                                    <div class="step-title">Create Avatar</div>
+                                    <div class="step-details">
+                                        <div class="step-points">
+                                            <span>• Customize appearance (hair, skin, etc.)</span>
+                                            <span>• Choose outfits (variety available)</span>
+                                            <span>• Set expressions (unique styles)</span>
+                                            <span>• Special effects (glowing eyes, aura, etc.)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="step-arrow">→</div>
+                            </div>
+
+                            <div class="step-item final-step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <div class="step-icon">🎮</div>
+                                    <div class="step-title">Start Playing</div>
+                                    <div class="step-details">
+                                        <div class="step-points">
+                                            <span>• Go to Lobby → RPS Arena</span>
+                                            <span>• RPS Battle (rewards available)</span>
+                                            <span>• Poker (tournaments held)</span>
+                                            <span>• More games coming soon</span>
+                                        </div>
+                                        <div class="step-youtube">
+                                            <a href="https://youtu.be/Js8zDOWJbjs" target="_blank" rel="noopener noreferrer" class="youtube-link">
+                                                📺 Watch Gameplay Video
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="infographic-cta">
+                            <a href="https://go.infaxia.io/" target="_blank" rel="noopener noreferrer" class="infographic-start-btn">🚀 Start Now</a>
+                        </div>
+                    </div>
+                `;
+            } else if (tileData[index].title === 'Join DAO') {
+                content.innerHTML = `
+                    <div class="dao-container">
+                        <div class="dao-header">
+                            <div class="dao-icon">🏛️</div>
+                            <h3 class="dao-title">Join the InfaXia DAO Community</h3>
+                            <div class="dao-subtitle">Shape the future of InfaXia together</div>
+                        </div>
+                        
+                        <div class="dao-content">
+                            <div class="dao-description">
+                                <p>InfaXia DAO will be managed through the InfaXia Discord server, where the community can join discussions, vote, and help shape the project.</p>
+                            </div>
+                            
+                            <div class="dao-cta">
+                                <div class="cta-text">Come join us on Discord!</div>
+                                <a href="https://discord.gg/YtNpwzQCvw" target="_blank" rel="noopener noreferrer" class="discord-btn">
+                                    <span class="discord-icon">💬</span>Discord に参加
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (tileData[index].title === 'Get Updates') {
+                content.innerHTML = `
+                    <div class="updates-container">
+                        <div class="updates-header">
+                            <div class="updates-icon">📢</div>
+                            <h3 class="updates-title">Stay Connected with InfaXia</h3>
+                            <div class="updates-subtitle">Get the latest news, updates, and community events</div>
+                        </div>
+                        
+                        <div class="updates-content">
+                            <div class="updates-description">
+                                <p>Stay informed about AMAs, Tournaments, Roles & Rewards, Community Chats, System Updates, and more in the InfaXia community.</p>
+                            </div>
+                            
+                            <div class="social-channels">
+                                <h4>🌐 Join our Official Channels</h4>
+                                
+                                <div class="channels-grid">
+                                    <a href="https://discord.gg/YtNpwzQCvw" target="_blank" rel="noopener noreferrer" class="channel-card discord">
+                                        <div class="channel-icon discord-official">
+                                            <svg width="32" height="32" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0)">
+                                                    <path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978Z" fill="currentColor"/>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="channel-info">
+                                            <div class="channel-name">Discord</div>
+                                            <div class="channel-handle">InfaXia</div>
+                                        </div>
+                                        <div class="channel-arrow">→</div>
+                                    </a>
+                                    
+                                    <a href="https://x.com/InfaXia_GameFI" target="_blank" rel="noopener noreferrer" class="channel-card twitter">
+                                        <div class="channel-icon twitter-official">
+                                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.0956Z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div class="channel-info">
+                                            <div class="channel-name">X (Twitter)</div>
+                                            <div class="channel-handle">@InfaXia_GameFI</div>
+                                        </div>
+                                        <div class="channel-arrow">→</div>
+                                    </a>
+                                    
+                                    <a href="https://t.me/infaxia" target="_blank" rel="noopener noreferrer" class="channel-card telegram">
+                                        <div class="channel-icon telegram-official">
+                                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-.83.53-2.34 1.56-.22.15-.42.23-.61.22-.2-.01-.58-.11-1.03-.26-.55-.18-.99-.28-.95-.59.02-.16.2-.32.54-.48 2.12-.93 3.54-1.54 4.26-1.84 1.68-.7 2.03-.82 2.26-.82.05 0 .16.01.23.09.06.06.08.15.07.21z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div class="channel-info">
+                                            <div class="channel-name">Telegram</div>
+                                            <div class="channel-handle">InfaXia Channel</div>
+                                        </div>
+                                        <div class="channel-arrow">→</div>
+                                    </a>
+                                    
+                                    <a href="https://www.facebook.com/profile.php?id=61575145405313" target="_blank" rel="noopener noreferrer" class="channel-card facebook">
+                                        <div class="channel-icon facebook-official">
+                                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="currentColor"/>
+                                            </svg>
+                                        </div>
+                                        <div class="channel-info">
+                                            <div class="channel-name">Facebook</div>
+                                            <div class="channel-handle">InfaXia</div>
+                                        </div>
+                                        <div class="channel-arrow">→</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (tileData[index].title === 'Discord Guide') {
+                content.innerHTML = `
+                    <div class="discord-guide-container">
+                        <div class="discord-guide-header">
+                            <div class="discord-guide-icon-large">
+                                <svg width="80" height="80" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                        <path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978Z" fill="currentColor"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <h3 class="discord-guide-title">InfaXia Discord Guide</h3>
+                            <div class="discord-guide-subtitle">Navigate our community channels and features</div>
+                        </div>
+                        
+                        <div class="discord-guide-content">
+                            <div class="discord-channels">
+                                <h4>📋 Key Discord Channels</h4>
+                                
+                                <div class="channels-list">
+                                    <div class="channel-item">
+                                        <span class="channel-hash">#</span>
+                                        <div class="channel-details">
+                                            <div class="channel-name">rps-tournament</div>
+                                            <div class="channel-desc">Tournament results & winner introductions</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="channel-item">
+                                        <span class="channel-hash">#</span>
+                                        <div class="channel-details">
+                                            <div class="channel-name">updates</div>
+                                            <div class="channel-desc">New features & patch notes</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="channel-item">
+                                        <span class="channel-hash">#</span>
+                                        <div class="channel-details">
+                                            <div class="channel-name">introductions</div>
+                                            <div class="channel-desc">User connections & community introductions</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="discord-roles">
+                                <h4>🎭 Role System</h4>
+                                <div class="roles-info">
+                                    <span class="role-badge dao">DAO</span>
+                                    <span class="role-badge ama">AMA</span>
+                                    <span class="role-badge master">Master</span>
+                                    <span class="role-more">+ more roles available</span>
+                                </div>
+                            </div>
+                            
+                            <div class="discord-join">
+                                <div class="join-text">Come join us on Discord!</div>
+                                <a href="https://discord.gg/YtNpwzQCvw" target="_blank" rel="noopener noreferrer" class="discord-join-btn">
+                                    <span class="discord-join-icon">
+                                        <svg width="24" height="24" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0)">
+                                                <path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978Z" fill="currentColor"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    Join Discord Server
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (tileData[index].title === 'Roadmap') {
+                content.innerHTML = `
+                    <div class="roadmap-container">
+                        <div class="roadmap-header">
+                            <div class="roadmap-icon">🗺️</div>
+                            <h3 class="roadmap-title">InfaXia Development Roadmap</h3>
+                            <div class="roadmap-subtitle">Our journey to the future of Web3 gaming</div>
+                        </div>
+                        
+                        <div class="roadmap-content">
+                            <div class="roadmap-timeline">
+                                <div class="timeline-item current">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-dot active"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-period">Q3 2025</div>
+                                        <div class="timeline-title">Beta Launch Phase</div>
+                                        <div class="timeline-features">
+                                            <div class="feature-item">🚀 Beta platform launch</div>
+                                            <div class="feature-item">💳 Glow Wallet integration</div>
+                                            <div class="feature-item">🎮 RPS & Poker rollout</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item upcoming">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-line"></div>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-period">Q4 2025</div>
+                                        <div class="timeline-title">Market Expansion</div>
+                                        <div class="timeline-features">
+                                            <div class="feature-item">🛒 NFT market expansion</div>
+                                            <div class="feature-item">🤝 Global partnerships begin</div>
+                                            <div class="feature-item">🌍 Community growth initiatives</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item future">
+                                    <div class="timeline-marker">
+                                        <div class="timeline-dot"></div>
+                                    </div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-period">Q1 2026</div>
+                                        <div class="timeline-title">Official Launch</div>
+                                        <div class="timeline-features">
+                                            <div class="feature-item">🎯 Full platform launch</div>
+                                            <div class="feature-item">📢 Large-scale promotion rollout</div>
+                                            <div class="feature-item">🏆 Major tournaments & events</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="roadmap-cta">
+                                <div class="cta-text">Join us on this exciting journey!</div>
+                                <a href="https://go.infaxia.io/" target="_blank" rel="noopener noreferrer" class="roadmap-btn">
+                                    <span class="roadmap-btn-icon">🚀</span>
+                                    Get Started Today
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else if (index === 3) {
+                // Special layout for "Services & NFT"
+                content.innerHTML = tileData[index].detail;
+            } else if (index === 4) {
+                // Special layout for "How to Earn"
+                content.innerHTML = tileData[index].detail;
+            } else {
+                content.innerHTML = `<p>${tileData[index].detail}</p>`;
+            }
+            
+            modal.style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('modal-overlay').style.display = 'none';
+        }
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
